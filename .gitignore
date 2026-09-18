@@ -1,3 +1,50 @@
+# Python 캐시
 __pycache__/
-*.pyc
-.vscode/
+*.py[cod]
+*$py.class
+
+# 가상환경
+.venv/
+venv/
+env/
+
+# 빌드 및 패키징 결과
+build/
+dist/
+*.egg-info/
+*.egg
+
+# 환경변수와 비밀정보
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 테스트/분석 캐시
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.matplotlib/
+
+# PyCharm 개인 설정
+.idea/
+
+# 임시 생성물
+tmp/
+*.tmp
+*.log
+
+# 운영체제 임시 파일
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 데이터와 저장 모델은 Git에 포함
+!data/
+!data/**
+!models/
+!models/**
